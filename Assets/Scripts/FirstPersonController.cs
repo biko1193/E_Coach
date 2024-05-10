@@ -9,6 +9,9 @@ public class FirstPersonController : MonoBehaviour
     private float rotationX = 0;
     private Vector3 velocity; // 중력과 점프 속도를 처리하기 위한 변수
 
+    public bool isPopupOpen = false; // 팝업창의 상태를 나타내는 변수
+
+
     void Start()
     {
         characterController = GetComponent<CharacterController>();
@@ -17,6 +20,17 @@ public class FirstPersonController : MonoBehaviour
 
     void Update()
     {
+        if (isPopupOpen)
+        {
+            Cursor.lockState = CursorLockMode.None; // 커서 잠금 해제
+            Cursor.visible = true; // 커서 보이게 설정
+            return;
+        }
+        else
+        {
+            Cursor.lockState = CursorLockMode.Locked; // 커서 잠금
+            Cursor.visible = false; // 커서 숨기기
+        }
         // 이동
         float moveHorizontal = Input.GetAxis("Horizontal") * speed;
         float moveVertical = Input.GetAxis("Vertical") * speed;
@@ -44,3 +58,5 @@ public class FirstPersonController : MonoBehaviour
         transform.localEulerAngles = new Vector3(rotationX, transform.localEulerAngles.y + Input.GetAxis("Mouse X") * sensitivity, 0);
     }
 }
+
+

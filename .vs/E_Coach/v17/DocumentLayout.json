@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\E_Coach\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F3F19DCD-90A7-8CA2-3F81-F428BA6D8CE4}|Assembly-CSharp.csproj|C:\\E_Coach\\assets\\scripts\\npcinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3F19DCD-90A7-8CA2-3F81-F428BA6D8CE4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\npcinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F3F19DCD-90A7-8CA2-3F81-F428BA6D8CE4}|Assembly-CSharp.csproj|c:\\e_coach\\assets\\scripts\\firstpersoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F3F19DCD-90A7-8CA2-3F81-F428BA6D8CE4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\firstpersoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F3F19DCD-90A7-8CA2-3F81-F428BA6D8CE4}|Assembly-CSharp.csproj|c:\\e_coach\\assets\\charactercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3F19DCD-90A7-8CA2-3F81-F428BA6D8CE4}|Assembly-CSharp.csproj|solutionrelative:assets\\charactercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F3F19DCD-90A7-8CA2-3F81-F428BA6D8CE4}|Assembly-CSharp.csproj|C:\\E_Coach\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3F19DCD-90A7-8CA2-3F81-F428BA6D8CE4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F3F19DCD-90A7-8CA2-3F81-F428BA6D8CE4}|Assembly-CSharp.csproj|c:\\e_coach\\assets\\scripts\\popupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3F19DCD-90A7-8CA2-3F81-F428BA6D8CE4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\popupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +22,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "FirstPersonController.cs",
               "DocumentMoniker": "C:\\E_Coach\\Assets\\Scripts\\FirstPersonController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\FirstPersonController.cs",
               "ToolTip": "C:\\E_Coach\\Assets\\Scripts\\FirstPersonController.cs",
               "RelativeToolTip": "Assets\\Scripts\\FirstPersonController.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAAwB0AAAAoAAAA",
+              "ViewState": "AQIAABcAAAAAAAAAAAAAAB4AAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T08:52:08.897Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CharacterController.cs",
-              "DocumentMoniker": "C:\\E_Coach\\Assets\\CharacterController.cs",
-              "RelativeDocumentMoniker": "Assets\\CharacterController.cs",
-              "ToolTip": "C:\\E_Coach\\Assets\\CharacterController.cs",
-              "RelativeToolTip": "Assets\\CharacterController.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAADwvyoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T08:48:51.471Z",
+              "WhenOpened": "2024-05-10T04:04:00.898Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "PlayerMovement.cs",
-              "DocumentMoniker": "C:\\E_Coach\\Assets\\Scripts\\PlayerMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
-              "ToolTip": "C:\\E_Coach\\Assets\\Scripts\\PlayerMovement.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAADwvzAAAAAAAAAA",
+              "Title": "PopupController.cs",
+              "DocumentMoniker": "C:\\E_Coach\\Assets\\Scripts\\PopupController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PopupController.cs",
+              "ToolTip": "C:\\E_Coach\\Assets\\Scripts\\PopupController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PopupController.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAwwA4AAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T08:09:59.081Z"
+              "WhenOpened": "2024-05-10T03:33:42.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NPCInteraction.cs",
+              "DocumentMoniker": "C:\\E_Coach\\Assets\\Scripts\\NPCInteraction.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\NPCInteraction.cs",
+              "ToolTip": "C:\\E_Coach\\Assets\\Scripts\\NPCInteraction.cs",
+              "RelativeToolTip": "Assets\\Scripts\\NPCInteraction.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAADwvwwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T01:39:12.486Z",
+              "EditorCaption": ""
             }
           ]
         }
