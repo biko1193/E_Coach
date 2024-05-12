@@ -3,6 +3,7 @@ using UnityEngine;
 public class NPCInteraction : MonoBehaviour
 {
     public PopupController popupController; // Inspector에서 할당할 PopupController 컴포넌트
+    public GameObject Player;
 
     private bool isPlayerInRange = false;
 
@@ -14,12 +15,15 @@ public class NPCInteraction : MonoBehaviour
             // 팝업창의 활성화 상태를 토글
             if (popupController.popupPanel.activeSelf)
             {
-                popupController.ClosePopup();
+                //popupController.ClosePopup();
             }
             else
             {
+                popupController.NPC = gameObject;
+                popupController.Player = Player;
                 popupController.OpenPopup();
             }
+            
         }
     }
 
