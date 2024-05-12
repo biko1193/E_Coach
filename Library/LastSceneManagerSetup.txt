@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Toon City/Scenes/Demo_Scene_1.unity
+- path: Assets/Toon City/Scenes/Main_Map.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
