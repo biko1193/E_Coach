@@ -12,25 +12,18 @@ public class ConversationPanelController : MonoBehaviour
     private TMP_Text CurrentTextBox;
 
     // 대화창에 플레이어의 대화 생성, 문자열 정렬(줄바꿈, 스크롤바 등)은 자동으로 수행되므로 따로 처리할 필요 없음
-    public void CreatePlayerText(string s)
+    public void CreateText(string prefix, string s)
     {
         //if (InputField.text == "") return;
         CurrentTextBox = Instantiate(TextBox, Content.transform).gameObject.GetComponent<TMP_Text>();
-        CurrentTextBox.text = "You:\n" + InputField.text;
-    }
-
-    // 대화창에 NPC의 대화 생성
-    public void CreateNPCText(string s)
-    {
-        CurrentTextBox = Instantiate(TextBox, Content.transform).gameObject.GetComponent<TMP_Text>();
-        CurrentTextBox.text = "NPC:\n" + s;
+        CurrentTextBox.text = prefix + ":\n" + InputField.text;
     }
 
     // Send 버튼을 눌렀을 때
     public void OnSendButtonClicked()
     {
         if (GetPlayerText() == "") return; //입력칸에 아무것도 없으면 수행하지 않습니다
-        CreatePlayerText(GetPlayerText());
+        CreateText("You", GetPlayerText());
         SetPlayerText("");
     }
 
