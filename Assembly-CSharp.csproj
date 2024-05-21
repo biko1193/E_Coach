@@ -71,6 +71,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
     <Compile Include="Assets\Toon City People\Scripts\FatnessLevel.cs" />
+    <Compile Include="Assets\Prefabs\Conversation\Scripts\ConversationPanelController.cs" />
     <Compile Include="Assets\Toon City People\Scripts\ApronSelector.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
     <Compile Include="Assets\Toon City People\Scripts\LegSelector.cs" />
