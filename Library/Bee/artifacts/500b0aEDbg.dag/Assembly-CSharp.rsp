@@ -340,6 +340,7 @@
 -analyzer:"D:/Program Files/Unity/2022.3.22f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"D:/Program Files/Unity/2022.3.22f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/CharacterController.cs"
+"Assets/Prefabs/Conversation/Scripts/ConversationPanelController.cs"
 "Assets/Scripts/FirstPersonController.cs"
 "Assets/Scripts/NPCAttributes.cs"
 "Assets/Scripts/NPCInteraction.cs"
