@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "E:\\SCHOOL\\E_Coach\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F3F19DCD-90A7-8CA2-3F81-F428BA6D8CE4}|Assembly-CSharp.csproj|E:\\SCHOOL\\E_Coach\\assets\\scripts\\npcinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3F19DCD-90A7-8CA2-3F81-F428BA6D8CE4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\npcinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F3F19DCD-90A7-8CA2-3F81-F428BA6D8CE4}|Assembly-CSharp.csproj|E:\\SCHOOL\\E_Coach\\assets\\scripts\\firstpersoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3F19DCD-90A7-8CA2-3F81-F428BA6D8CE4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\firstpersoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F3F19DCD-90A7-8CA2-3F81-F428BA6D8CE4}|Assembly-CSharp.csproj|E:\\SCHOOL\\E_Coach\\assets\\scripts\\popupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F3F19DCD-90A7-8CA2-3F81-F428BA6D8CE4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\popupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F3F19DCD-90A7-8CA2-3F81-F428BA6D8CE4}|Assembly-CSharp.csproj|E:\\SCHOOL\\E_Coach\\assets\\scripts\\firstpersoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3F19DCD-90A7-8CA2-3F81-F428BA6D8CE4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\firstpersoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F3F19DCD-90A7-8CA2-3F81-F428BA6D8CE4}|Assembly-CSharp.csproj|e:\\school\\e_coach\\assets\\scripts\\npcinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3F19DCD-90A7-8CA2-3F81-F428BA6D8CE4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\npcinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,19 +22,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "FirstPersonController.cs",
               "DocumentMoniker": "E:\\SCHOOL\\E_Coach\\Assets\\Scripts\\FirstPersonController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\FirstPersonController.cs",
               "ToolTip": "E:\\SCHOOL\\E_Coach\\Assets\\Scripts\\FirstPersonController.cs",
               "RelativeToolTip": "Assets\\Scripts\\FirstPersonController.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAqwD8AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T04:04:00.898Z"
+              "WhenOpened": "2024-05-10T04:04:00.898Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -44,19 +45,20 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\PopupController.cs",
               "ToolTip": "E:\\SCHOOL\\E_Coach\\Assets\\Scripts\\PopupController.cs",
               "RelativeToolTip": "Assets\\Scripts\\PopupController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAAVAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T03:33:42.524Z"
+              "WhenOpened": "2024-05-10T03:33:42.524Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "NPCInteraction.cs",
               "DocumentMoniker": "E:\\SCHOOL\\E_Coach\\Assets\\Scripts\\NPCInteraction.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\NPCInteraction.cs",
               "ToolTip": "E:\\SCHOOL\\E_Coach\\Assets\\Scripts\\NPCInteraction.cs",
               "RelativeToolTip": "Assets\\Scripts\\NPCInteraction.cs",
-              "ViewState": "AQIAADoAAAAAAAAAAAAqwD8AAAAkAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAIwB4AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-10T01:39:12.486Z",
               "EditorCaption": ""

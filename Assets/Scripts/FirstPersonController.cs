@@ -6,15 +6,16 @@ public class FirstPersonController : MonoBehaviour
     public float sensitivity = 2.0f;
     public float jumpSpeed = 5.0f;
     private CharacterController characterController;
+    private Animator animator;
     private float rotationX = 0;
     private Vector3 velocity; // 중력과 점프 속도를 처리하기 위한 변수
 
     public bool isPopupOpen = false; // 팝업창의 상태를 나타내는 변수
 
-
     void Start()
     {
         characterController = GetComponent<CharacterController>();
+        animator = GetComponent<Animator>();
         Cursor.lockState = CursorLockMode.Locked;
     }
 
@@ -31,19 +32,28 @@ public class FirstPersonController : MonoBehaviour
             Cursor.lockState = CursorLockMode.Locked; // 커서 잠금
             Cursor.visible = false; // 커서 숨기기
         }
+
         // 이동
         float moveHorizontal = Input.GetAxis("Horizontal") * speed;
         float moveVertical = Input.GetAxis("Vertical") * speed;
         Vector3 movement = transform.right * moveHorizontal + transform.forward * moveVertical;
+        bool isMoving = movement.magnitude > 0;
+
+        // 애니메이터 파라미터 설정
+        animator.SetFloat("MoveX", moveHorizontal);
+        animator.SetFloat("MoveY", moveVertical);
+        animator.SetBool("isWalking", isMoving);
 
         // 점프
         if (characterController.isGrounded && Input.GetButtonDown("Jump"))
         {
             velocity.y = jumpSpeed;
+            animator.SetBool("isJumping", true); // 점프 애니메이션 트리거
         }
         else if (characterController.isGrounded)
         {
             velocity.y = -2f; // 점프하지 않을 때 캐릭터가 땅에 단단히 붙어 있도록 합니다.
+            animator.SetBool("isJumping", false); // 점프 애니메이션 종료
         }
 
         // 중력 적용
@@ -58,5 +68,3 @@ public class FirstPersonController : MonoBehaviour
         transform.localEulerAngles = new Vector3(rotationX, transform.localEulerAngles.y + Input.GetAxis("Mouse X") * sensitivity, 0);
     }
 }
-
-
