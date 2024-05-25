@@ -12,18 +12,18 @@ public class NPCAttribute : MonoBehaviour
     public Text roleTextPrefab;
 
     // 생성될 Text 오브젝트를 위한 부모 Canvas
-    private Canvas nameTagCanvas;
+    public Canvas NPCNameTagCanvas { get; private set; } // public으로 변경하여 외부 접근 가능
 
     void Start()
     {
         // World Space Canvas 생성 및 설정
         GameObject canvasGameObject = new GameObject("NPCNameTagCanvas");
-        nameTagCanvas = canvasGameObject.AddComponent<Canvas>();
-        nameTagCanvas.renderMode = RenderMode.WorldSpace;
+        NPCNameTagCanvas = canvasGameObject.AddComponent<Canvas>();
+        NPCNameTagCanvas.renderMode = RenderMode.WorldSpace;
         CanvasScaler cs = canvasGameObject.AddComponent<CanvasScaler>();
         cs.scaleFactor = 10.0f;
         cs.dynamicPixelsPerUnit = 10f;
-        RectTransform canvasRectTransform = nameTagCanvas.GetComponent<RectTransform>();
+        RectTransform canvasRectTransform = NPCNameTagCanvas.GetComponent<RectTransform>();
         canvasRectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, 100f);
         canvasRectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, 50f);
         canvasGameObject.transform.SetParent(this.transform);
@@ -52,11 +52,10 @@ public class NPCAttribute : MonoBehaviour
 
     void Update()
     {
-        // Canvas가 항상 카메라를 바라보게 설정
-        if (nameTagCanvas)
+        if (NPCNameTagCanvas && Camera.main && NPCNameTagCanvas.gameObject.activeInHierarchy && Camera.main.gameObject.activeInHierarchy)
         {
-            nameTagCanvas.transform.LookAt(Camera.main.transform);
-            nameTagCanvas.transform.Rotate(0, 180, 0); // 텍스트가 거꾸로 보이지 않도록 회전
+            NPCNameTagCanvas.transform.LookAt(Camera.main.transform);
+            NPCNameTagCanvas.transform.Rotate(0, 180, 0); // 텍스트가 거꾸로 보이지 않도록 회전
         }
     }
 }

@@ -10,6 +10,7 @@ public class PopupController : MonoBehaviour
     // 팝업창을 닫는 메서드
     public void ClosePopup()
     {
+        Player.SetActive(true); // 대화 종료 시 플레이어 활성화
         popupPanel.SetActive(false); // 팝업창을 비활성화
         playerController.isPopupOpen = false; // 플레이어 이동 제한 해제
         NPC.transform.Find("CamNPC").gameObject.SetActive(false);
