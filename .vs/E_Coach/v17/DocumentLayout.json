@@ -3,7 +3,27 @@
   "WorkspaceRootPath": "E:\\SCHOOL\\E_Coach\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F3F19DCD-90A7-8CA2-3F81-F428BA6D8CE4}|Assembly-CSharp.csproj|e:\\school\\e_coach\\assets\\scripts\\tracewaypoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F3F19DCD-90A7-8CA2-3F81-F428BA6D8CE4}|Assembly-CSharp.csproj|e:\\school\\e_coach\\assets\\minimap\\fixedminimapmarker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3F19DCD-90A7-8CA2-3F81-F428BA6D8CE4}|Assembly-CSharp.csproj|solutionrelative:assets\\minimap\\fixedminimapmarker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3F19DCD-90A7-8CA2-3F81-F428BA6D8CE4}|Assembly-CSharp.csproj|e:\\school\\e_coach\\assets\\scripts\\popupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3F19DCD-90A7-8CA2-3F81-F428BA6D8CE4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\popupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3F19DCD-90A7-8CA2-3F81-F428BA6D8CE4}|Assembly-CSharp.csproj|E:\\SCHOOL\\E_Coach\\assets\\minimap\\minimaptoggle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3F19DCD-90A7-8CA2-3F81-F428BA6D8CE4}|Assembly-CSharp.csproj|solutionrelative:assets\\minimap\\minimaptoggle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3F19DCD-90A7-8CA2-3F81-F428BA6D8CE4}|Assembly-CSharp.csproj|E:\\SCHOOL\\E_Coach\\assets\\minimap\\minimapicon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3F19DCD-90A7-8CA2-3F81-F428BA6D8CE4}|Assembly-CSharp.csproj|solutionrelative:assets\\minimap\\minimapicon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\SCHOOL\\E_Coach\\Assets\\MiniMap\\MiniMapMarker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\MiniMap\\MiniMapMarker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3F19DCD-90A7-8CA2-3F81-F428BA6D8CE4}|Assembly-CSharp.csproj|E:\\SCHOOL\\E_Coach\\assets\\scripts\\tracewaypoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F3F19DCD-90A7-8CA2-3F81-F428BA6D8CE4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tracewaypoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -19,11 +39,7 @@
       "RelativeMoniker": "D:0:0:{F3F19DCD-90A7-8CA2-3F81-F428BA6D8CE4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\npcinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F3F19DCD-90A7-8CA2-3F81-F428BA6D8CE4}|Assembly-CSharp.csproj|E:\\SCHOOL\\E_Coach\\assets\\scripts\\popupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3F19DCD-90A7-8CA2-3F81-F428BA6D8CE4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\popupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F3F19DCD-90A7-8CA2-3F81-F428BA6D8CE4}|Assembly-CSharp.csproj|e:\\school\\e_coach\\assets\\scripts\\resettriggersonexit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F3F19DCD-90A7-8CA2-3F81-F428BA6D8CE4}|Assembly-CSharp.csproj|E:\\SCHOOL\\E_Coach\\assets\\scripts\\resettriggersonexit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F3F19DCD-90A7-8CA2-3F81-F428BA6D8CE4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\resettriggersonexit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -39,6 +55,67 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "FixedMiniMapMarker.cs",
+              "DocumentMoniker": "E:\\SCHOOL\\E_Coach\\Assets\\MiniMap\\FixedMiniMapMarker.cs",
+              "RelativeDocumentMoniker": "Assets\\MiniMap\\FixedMiniMapMarker.cs",
+              "ToolTip": "E:\\SCHOOL\\E_Coach\\Assets\\MiniMap\\FixedMiniMapMarker.cs",
+              "RelativeToolTip": "Assets\\MiniMap\\FixedMiniMapMarker.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T00:35:25.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PopupController.cs",
+              "DocumentMoniker": "E:\\SCHOOL\\E_Coach\\Assets\\Scripts\\PopupController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PopupController.cs",
+              "ToolTip": "E:\\SCHOOL\\E_Coach\\Assets\\Scripts\\PopupController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PopupController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T00:22:18.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MiniMapIcon.cs",
+              "DocumentMoniker": "E:\\SCHOOL\\E_Coach\\Assets\\MiniMap\\MiniMapIcon.cs",
+              "RelativeDocumentMoniker": "Assets\\MiniMap\\MiniMapIcon.cs",
+              "ToolTip": "E:\\SCHOOL\\E_Coach\\Assets\\MiniMap\\MiniMapIcon.cs",
+              "RelativeToolTip": "Assets\\MiniMap\\MiniMapIcon.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T10:41:16.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MiniMapToggle.cs",
+              "DocumentMoniker": "E:\\SCHOOL\\E_Coach\\Assets\\MiniMap\\MiniMapToggle.cs",
+              "RelativeDocumentMoniker": "Assets\\MiniMap\\MiniMapToggle.cs",
+              "ToolTip": "E:\\SCHOOL\\E_Coach\\Assets\\MiniMap\\MiniMapToggle.cs",
+              "RelativeToolTip": "Assets\\MiniMap\\MiniMapToggle.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T06:24:42.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MiniMapMarker.cs",
+              "DocumentMoniker": "E:\\SCHOOL\\E_Coach\\Assets\\MiniMap\\MiniMapMarker.cs",
+              "RelativeDocumentMoniker": "Assets\\MiniMap\\MiniMapMarker.cs",
+              "ToolTip": "E:\\SCHOOL\\E_Coach\\Assets\\MiniMap\\MiniMapMarker.cs",
+              "RelativeToolTip": "Assets\\MiniMap\\MiniMapMarker.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T06:10:31.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "TraceWaypoint.cs",
               "DocumentMoniker": "E:\\SCHOOL\\E_Coach\\Assets\\Scripts\\TraceWaypoint.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TraceWaypoint.cs",
@@ -46,12 +123,11 @@
               "RelativeToolTip": "Assets\\Scripts\\TraceWaypoint.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAqwAwAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-25T10:15:50.949Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-25T10:15:50.949Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "ResetTriggersOnExit.cs",
               "DocumentMoniker": "E:\\SCHOOL\\E_Coach\\Assets\\Scripts\\ResetTriggersOnExit.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ResetTriggersOnExit.cs",
@@ -59,25 +135,11 @@
               "RelativeToolTip": "Assets\\Scripts\\ResetTriggersOnExit.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T07:32:29.403Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-24T07:32:29.403Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PopupController.cs",
-              "DocumentMoniker": "E:\\SCHOOL\\E_Coach\\Assets\\Scripts\\PopupController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PopupController.cs",
-              "ToolTip": "E:\\SCHOOL\\E_Coach\\Assets\\Scripts\\PopupController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PopupController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABDAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T06:44:38.88Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "NPCInteraction.cs",
               "DocumentMoniker": "E:\\SCHOOL\\E_Coach\\Assets\\Scripts\\NPCInteraction.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\NPCInteraction.cs",
@@ -85,12 +147,11 @@
               "RelativeToolTip": "Assets\\Scripts\\NPCInteraction.cs",
               "ViewState": "AQIAAAIAAAAAAAAAAAAwwA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T05:20:06.444Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-24T05:20:06.444Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "NPCAttributes.cs",
               "DocumentMoniker": "E:\\SCHOOL\\E_Coach\\Assets\\Scripts\\NPCAttributes.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\NPCAttributes.cs",
@@ -98,12 +159,11 @@
               "RelativeToolTip": "Assets\\Scripts\\NPCAttributes.cs",
               "ViewState": "AQIAACcAAAAAAAAAAAAvwDYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T08:24:12.866Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-23T08:24:12.866Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "FirstPersonController.cs",
               "DocumentMoniker": "E:\\SCHOOL\\E_Coach\\Assets\\Scripts\\FirstPersonController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\FirstPersonController.cs",
@@ -111,8 +171,7 @@
               "RelativeToolTip": "Assets\\Scripts\\FirstPersonController.cs",
               "ViewState": "AQIAACkAAAAAAAAAAAAowEYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T04:04:00.898Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-10T04:04:00.898Z"
             }
           ]
         }

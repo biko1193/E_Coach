@@ -79,7 +79,9 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
+    <Compile Include="Assets\MiniMap\MiniMapIcon.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
+    <Compile Include="Assets\MiniMap\NPCIconFollow.cs" />
     <Compile Include="Assets\Toon City People\Scripts\HatSelector.cs" />
     <Compile Include="Assets\Toon City People\Scripts\HeadSelector.cs" />
     <Compile Include="Assets\Toon City People\Scripts\TieSelector.cs" />
@@ -93,6 +95,7 @@
     <Compile Include="Assets\Toon City People\Scripts\EarringSelector.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
+    <Compile Include="Assets\MiniMap\FixedMiniMapMarker.cs" />
     <Compile Include="Assets\Toon City People\Scripts\SkirtSelector.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
@@ -112,6 +115,7 @@
     <Compile Include="Assets\Toon City People\Scripts\FannyPackSelector.cs" />
     <Compile Include="Assets\Scripts\NPCAttributes.cs" />
     <Compile Include="Assets\Toon City People\Scripts\GlassesSelector.cs" />
+    <Compile Include="Assets\MiniMap\MiniMapToggle.cs" />
     <Compile Include="Assets\Toon City People\Scripts\DressSelector.cs" />
     <Compile Include="Assets\Toon City People\Scripts\WatchSelector.cs" />
     <Compile Include="Assets\Scripts\ResetTriggersOnExit.cs" />
