@@ -15,7 +15,7 @@ E:/SCHOOL/E_Coach
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-59383
+57299
 Successfully changed project path to: E:/SCHOOL/E_Coach
 E:/SCHOOL/E_Coach
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ E:/SCHOOL/E_Coach
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [35660] Host "[IP] 172.30.95.101 [Port] 0 [Flags] 2 [Guid] 292116476 [EditorId] 292116476 [Version] 1048832 [Id] WindowsEditor(7,i7) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [44588] Host "[IP] 192.168.55.196 [Port] 0 [Flags] 2 [Guid] 3810536649 [EditorId] 3810536649 [Version] 1048832 [Id] WindowsEditor(7,i7) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [35660] Host "[IP] 172.30.95.101 [Port] 0 [Flags] 2 [Guid] 292116476 [EditorId] 292116476 [Version] 1048832 [Id] WindowsEditor(7,i7) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [44588] Host "[IP] 192.168.55.196 [Port] 0 [Flags] 2 [Guid] 3810536649 [EditorId] 3810536649 [Version] 1048832 [Id] WindowsEditor(7,i7) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 12.88 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 8.37 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.22f1 (887be4894c44)
 [Subsystems] Discovering subsystems at path D:/Program Files/Unity/2022.3.22f1/Editor/Data/Resources/UnitySubsystems
@@ -70,55 +70,55 @@ Initialize mono
 Mono path[0] = 'D:/Program Files/Unity/2022.3.22f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Program Files/Unity/2022.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Program Files/Unity/2022.3.22f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56592
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56972
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Program Files/Unity/2022.3.22f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/Program Files/Unity/2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.059366 seconds.
-- Loaded All Assemblies, in  1.147 seconds
+Registered in 0.019537 seconds.
+- Loaded All Assemblies, in  0.631 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.013 seconds
-Domain Reload Profiling: 2158ms
-	BeginReloadAssembly (320ms)
+- Finished resetting the current domain, in  0.536 seconds
+Domain Reload Profiling: 1168ms
+	BeginReloadAssembly (221ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (132ms)
-	RebuildNativeTypeToScriptingClass (32ms)
-	initialDomainReloadingComplete (207ms)
-	LoadAllAssembliesAndSetupDomain (453ms)
-		LoadAssemblies (321ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (92ms)
+	LoadAllAssembliesAndSetupDomain (250ms)
+		LoadAssemblies (220ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (445ms)
-			TypeCache.Refresh (442ms)
-				TypeCache.ScanAssembly (405ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
+		AnalyzeDomain (246ms)
+			TypeCache.Refresh (244ms)
+				TypeCache.ScanAssembly (224ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (1014ms)
+	FinalizeReload (538ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (814ms)
+		SetupLoadedEditorAssemblies (419ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (34ms)
-			SetLoadedEditorAssemblies (16ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (9ms)
-			ProcessInitializeOnLoadAttributes (586ms)
-			ProcessInitializeOnLoadMethodAttributes (169ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (289ms)
+			ProcessInitializeOnLoadMethodAttributes (106ms)
 			AfterProcessingInitializeOnLoad (0ms)
-			EditorAssembliesLoaded (1ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.853 seconds
-Refreshing native plugins compatible for Editor in 6.09 ms, found 2 plugins.
+- Loaded All Assemblies, in  0.846 seconds
+Refreshing native plugins compatible for Editor in 3.86 ms, found 2 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -126,47 +126,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.982 seconds
-Domain Reload Profiling: 3835ms
-	BeginReloadAssembly (663ms)
+- Finished resetting the current domain, in  1.043 seconds
+Domain Reload Profiling: 1889ms
+	BeginReloadAssembly (265ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (15ms)
+		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (59ms)
-	RebuildCommonClasses (222ms)
-	RebuildNativeTypeToScriptingClass (35ms)
-	initialDomainReloadingComplete (121ms)
-	LoadAllAssembliesAndSetupDomain (811ms)
-		LoadAssemblies (1034ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (61ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (446ms)
+		LoadAssemblies (445ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (273ms)
-			TypeCache.Refresh (232ms)
-				TypeCache.ScanAssembly (199ms)
-			ScanForSourceGeneratedMonoScriptInfo (26ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (1984ms)
+		AnalyzeDomain (181ms)
+			TypeCache.Refresh (149ms)
+				TypeCache.ScanAssembly (123ms)
+			ScanForSourceGeneratedMonoScriptInfo (21ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1044ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1529ms)
+		SetupLoadedEditorAssemblies (764ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (25ms)
-			SetLoadedEditorAssemblies (10ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (164ms)
-			ProcessInitializeOnLoadAttributes (1238ms)
-			ProcessInitializeOnLoadMethodAttributes (84ms)
-			AfterProcessingInitializeOnLoad (8ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (627ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (37ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.24 seconds
-Refreshing native plugins compatible for Editor in 5.43 ms, found 2 plugins.
+		AwakeInstancesAfterBackupRestoration (14ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 2.74 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1499 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (55.8 KB). Loaded Objects now: 1981.
-Memory consumption went from 96.7 MB to 96.7 MB.
-Total: 9.471200 ms (FindLiveObjects: 0.352000 ms CreateObjectMapping: 0.226100 ms MarkObjects: 8.546000 ms  DeleteObjects: 0.345200 ms)
+Unloading 1500 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (56.1 KB). Loaded Objects now: 1982.
+Memory consumption went from 96.4 MB to 96.4 MB.
+Total: 4.126800 ms (FindLiveObjects: 0.267400 ms CreateObjectMapping: 0.164300 ms MarkObjects: 3.453400 ms  DeleteObjects: 0.239600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
@@ -182,624 +182,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-========================================================================
-Received Import Request.
-  Time since last request: 127483.373420 seconds.
-  path: Assets/Toon City/Prefabs/Roads/Streetsign_2G.prefab
-  artifactKey: Guid(6ad83df1db3fc4ec5822bb70010e233e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City/Prefabs/Roads/Streetsign_2G.prefab using Guid(6ad83df1db3fc4ec5822bb70010e233e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '542332dbe6ada9f700755ca2a0f58661') in 2.529114 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Toon City People/Prefabs/Male Character Variants/TCP_Male_Character_01E.prefab
-  artifactKey: Guid(89ba6650f5c05b641b9f468d1bb365c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City People/Prefabs/Male Character Variants/TCP_Male_Character_01E.prefab using Guid(89ba6650f5c05b641b9f468d1bb365c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '904de35ce5d3fe8a290cfc52d4affce7') in 1.149293 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 894
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Toon City People/Prefabs/Female Character Sources/TCP_Female_Character_01.prefab
-  artifactKey: Guid(435622ef5473a774e807002cff332d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City People/Prefabs/Female Character Sources/TCP_Female_Character_01.prefab using Guid(435622ef5473a774e807002cff332d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc09f91695103b8bc25df958c7e420b9') in 0.985142 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 818
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Toon City People/Models/TCP_Briefcase_02A.fbx
-  artifactKey: Guid(bd26b6dc59de56c44be7e0b45a17ad3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City People/Models/TCP_Briefcase_02A.fbx using Guid(bd26b6dc59de56c44be7e0b45a17ad3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8310efb51d7d850031f6bdcf5ce78e6c') in 0.267608 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_10E.prefab
-  artifactKey: Guid(1a1a29f13fcf6c94197c6175737d7aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_10E.prefab using Guid(1a1a29f13fcf6c94197c6175737d7aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2e772fd0238c5f2286079b10ea8c5ca') in 0.218259 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 634
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Toon City People/Models/TCP_Female_Character_06.fbx
-  artifactKey: Guid(398cd5b9078737848b37da6cc7292b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City People/Models/TCP_Female_Character_06.fbx using Guid(398cd5b9078737848b37da6cc7292b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66cf917acf1deafd751752a56b892873') in 4.099112 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 801
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Toon City People/Models/TCP_Female_Character_12.fbx
-  artifactKey: Guid(b3bcc392810256143a8ca52008488344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City People/Models/TCP_Female_Character_12.fbx using Guid(b3bcc392810256143a8ca52008488344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f0fa8ee8f41a7799ad304bffef65726') in 3.614533 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 801
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Toon City/Models/Streetsign_2I.fbx
-  artifactKey: Guid(d57d33b218cab4cd0ae33e74d6a32f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City/Models/Streetsign_2I.fbx using Guid(d57d33b218cab4cd0ae33e74d6a32f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae897c9e7db64bb8db59fc033d1d7983') in 0.126508 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000732 seconds.
-  path: Assets/Toon City/Models/Streetsign_2E.fbx
-  artifactKey: Guid(88ff42cd36acb44348057a162cef14ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City/Models/Streetsign_2E.fbx using Guid(88ff42cd36acb44348057a162cef14ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d7166b3660d4ba6f6b3fa18b3778282') in 0.076469 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_09D.prefab
-  artifactKey: Guid(6d0b139e5429c6f49b76fb6f1a7ca1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_09D.prefab using Guid(6d0b139e5429c6f49b76fb6f1a7ca1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '526cf190a99063817400f19a485343be') in 0.199948 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 802
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_03E.prefab
-  artifactKey: Guid(874e4cc165717684298387762ce66e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_03E.prefab using Guid(874e4cc165717684298387762ce66e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5394d2ff5ebb73538bf6b61c9cdfdb4') in 0.151781 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 782
-========================================================================
-Received Import Request.
-  Time since last request: 0.000121 seconds.
-  path: Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_12C.prefab
-  artifactKey: Guid(8ec2556cf592d7846957caa1ec37a8f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_12C.prefab using Guid(8ec2556cf592d7846957caa1ec37a8f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5b02cf03c9ce685adc803f48715e804') in 0.185042 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 802
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_08B.prefab
-  artifactKey: Guid(e0a3c6ad794edf14f9a28cedca6e9aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_08B.prefab using Guid(e0a3c6ad794edf14f9a28cedca6e9aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '140009d6f836abf4844a548a8f04992f') in 0.225311 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 802
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Toon City People/Prefabs/Props/TCP_Hammer_01B.prefab
-  artifactKey: Guid(afdd94722f882f94ea5366784e925122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City People/Prefabs/Props/TCP_Hammer_01B.prefab using Guid(afdd94722f882f94ea5366784e925122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ee4015cccf11f2e273dd4049b72f622') in 0.058253 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000421 seconds.
-  path: Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_10D.prefab
-  artifactKey: Guid(5a2e23f659abaad4aaf377562aedf802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_10D.prefab using Guid(5a2e23f659abaad4aaf377562aedf802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '466ce1515d570cdbdedf3624dfe5bab3') in 0.148378 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 634
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_01E.prefab
-  artifactKey: Guid(c4c95a2a91970df419542e9eaaeba78c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_01E.prefab using Guid(c4c95a2a91970df419542e9eaaeba78c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e32165da5b2908bb1b806811caeb349') in 0.205296 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 802
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Toon City People/Models/TCP_Briefcase_01C.fbx
-  artifactKey: Guid(03f4f67c49d46b4469361d74be111aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City People/Models/TCP_Briefcase_01C.fbx using Guid(03f4f67c49d46b4469361d74be111aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7b6785faf06d7d7df10f66a50b4ab81') in 0.120710 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Toon City People/Models/TCP_Female_Character_10.fbx
-  artifactKey: Guid(571b59c8b0f49d440b183cf1aca2b2e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City People/Models/TCP_Female_Character_10.fbx using Guid(571b59c8b0f49d440b183cf1aca2b2e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3395ce0ea4a8a7d983666fb1da477c2a') in 2.535017 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 633
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Toon City/Prefabs/Roads/Streetsign_2I.prefab
-  artifactKey: Guid(249739b050f3de040abcc0845f37d1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City/Prefabs/Roads/Streetsign_2I.prefab using Guid(249739b050f3de040abcc0845f37d1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c92a341cb0c4117289a7d4ba2c43b59') in 0.408420 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Toon City People/Models/TCP_Female_Character_09.fbx
-  artifactKey: Guid(733f3c53571a25c47a0b7df334ea95c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City People/Models/TCP_Female_Character_09.fbx using Guid(733f3c53571a25c47a0b7df334ea95c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '917d6869d34d7bf488f2cf775c02799b') in 4.031094 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 801
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Toon City People/Models/TCP_Female_Character_01.fbx
-  artifactKey: Guid(16002af7a7dde5748b82fe5aa4cea91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City People/Models/TCP_Female_Character_01.fbx using Guid(16002af7a7dde5748b82fe5aa4cea91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dac5a4f38a7d164a5782d3c804292bbd') in 7.263225 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 801
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Toon City People/Prefabs/Female Character Sources/TCP_Female_Character_08.prefab
-  artifactKey: Guid(a4eed735930410747a5088447610f677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City People/Prefabs/Female Character Sources/TCP_Female_Character_08.prefab using Guid(a4eed735930410747a5088447610f677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '544bf664ee653b5617ada94ae9456b2c') in 2.782452 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 819
-========================================================================
-Received Import Request.
-  Time since last request: 0.000559 seconds.
-  path: Assets/Toon City People/Prefabs/Props/TCP_Briefcase_02B.prefab
-  artifactKey: Guid(9aa9bdd7fe52bf44991fb9dbac113bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City People/Prefabs/Props/TCP_Briefcase_02B.prefab using Guid(9aa9bdd7fe52bf44991fb9dbac113bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '772abebabdf3be13861fd412734fdf5d') in 2.428129 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000627 seconds.
-  path: Assets/Toon City/Prefabs/Roads/Streetsign_2H.prefab
-  artifactKey: Guid(2c79146c44efb49c69d53ab7c9275b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City/Prefabs/Roads/Streetsign_2H.prefab using Guid(2c79146c44efb49c69d53ab7c9275b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '435a089fecd8cd9754fb241145049dbd') in 0.699403 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000403 seconds.
-  path: Assets/Toon City/Prefabs Update/Industrial/Suspended_Cable_1B.prefab
-  artifactKey: Guid(4a75fd5a3afd67d448bbbd43c5f65ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City/Prefabs Update/Industrial/Suspended_Cable_1B.prefab using Guid(4a75fd5a3afd67d448bbbd43c5f65ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '797e9d19211ad82a660983188c5a1e12') in 0.450172 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.032810 seconds.
-  path: Assets/Toon City People/Models/Poses/TCP_Female_Poses.fbx
-  artifactKey: Guid(c7ee51a9e37c2254c9c4251d2e689e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City People/Models/Poses/TCP_Female_Poses.fbx using Guid(c7ee51a9e37c2254c9c4251d2e689e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '346fda2785064f7fbb08b19ece2875ee') in 0.056616 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 86
-========================================================================
-Received Import Request.
-  Time since last request: 0.045433 seconds.
-  path: Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_07B.prefab
-  artifactKey: Guid(d896314c4fe68254eae626328eb13ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_07B.prefab using Guid(d896314c4fe68254eae626328eb13ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd4f5f8a6f6bd7ff64880fd717442b07') in 1.188966 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 822
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_02C.prefab
-  artifactKey: Guid(6659069b03aec3d41829762191e59a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_02C.prefab using Guid(6659069b03aec3d41829762191e59a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c2e6210fde18f06e3b2d7a9b039c706') in 0.260618 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 802
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Toon City People/Models/TCP_Briefcase_01B.fbx
-  artifactKey: Guid(05e57b6a153c12c44a9bfb7623705999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City People/Models/TCP_Briefcase_01B.fbx using Guid(05e57b6a153c12c44a9bfb7623705999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57ab207f2036ff15de55761a0512a26a') in 0.044386 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000574 seconds.
-  path: Assets/Toon City/Prefabs/Props/Table_1C.prefab
-  artifactKey: Guid(7f425186c53ec4e1a9b068e7053ae600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City/Prefabs/Props/Table_1C.prefab using Guid(7f425186c53ec4e1a9b068e7053ae600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a20f07e1d49f385a5a63e4db0059c11') in 0.461799 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000435 seconds.
-  path: Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_12A.prefab
-  artifactKey: Guid(b0837e8b827595540be2d6a536d3752f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_12A.prefab using Guid(b0837e8b827595540be2d6a536d3752f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d88df42b2433e54de56495aea576919') in 0.297643 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 802
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_07E.prefab
-  artifactKey: Guid(1d80e5fd20e62084385518a1b9746079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_07E.prefab using Guid(1d80e5fd20e62084385518a1b9746079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dc600eafd7e8e56e62fa37a9cabdb37') in 0.195081 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 822
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_03D.prefab
-  artifactKey: Guid(e21b16c8da21d3748882edae8fe85e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_03D.prefab using Guid(e21b16c8da21d3748882edae8fe85e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8856121c70452e12f81f28711655a0da') in 0.411422 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 782
-========================================================================
-Received Import Request.
-  Time since last request: 215.554863 seconds.
-  path: Assets/Toon City/Models/Tree_2A.fbx
-  artifactKey: Guid(31603b9a26fb64c48806bc9149516f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City/Models/Tree_2A.fbx using Guid(31603b9a26fb64c48806bc9149516f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16559915cac003d7476d451f9b7f4e1c') in 0.057232 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Toon City/Models/Tree_2F.fbx
-  artifactKey: Guid(a8ec1662cf57e45e8b05de1557431119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City/Models/Tree_2F.fbx using Guid(a8ec1662cf57e45e8b05de1557431119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a65bd29aebe6a740e0a38d1831f72a85') in 0.024349 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Toon City/Prefabs/Vegetation/Tree_2E.prefab
-  artifactKey: Guid(57cc602eb8e78461fab8c55d99c8b561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City/Prefabs/Vegetation/Tree_2E.prefab using Guid(57cc602eb8e78461fab8c55d99c8b561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2d6e7ea976b178370f3355b181bd326') in 0.029504 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Toon City/Prefabs/Vegetation/Tree_2J.prefab
-  artifactKey: Guid(8c42652e127c24b8caded1047398a697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City/Prefabs/Vegetation/Tree_2J.prefab using Guid(8c42652e127c24b8caded1047398a697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdb21ae4d2f28e1fdcbca918d2a1d864') in 0.021910 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Toon City/Prefabs/Vegetation/Tree_2H.prefab
-  artifactKey: Guid(7918e26ac43ea4d028290f97fad0dcbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City/Prefabs/Vegetation/Tree_2H.prefab using Guid(7918e26ac43ea4d028290f97fad0dcbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '960bcf161dee1b9a80cb896d33f8a41b') in 0.017792 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Toon City/Models/Tree_2I.fbx
-  artifactKey: Guid(72a0866f097604a42bf86659ad02c7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City/Models/Tree_2I.fbx using Guid(72a0866f097604a42bf86659ad02c7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ea7469d0a89a3a22ebea0a0e2144e20') in 0.026782 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Toon City/Models/Tree_2D.fbx
-  artifactKey: Guid(20fff7ab89f3a4db8bfa7f725100b529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City/Models/Tree_2D.fbx using Guid(20fff7ab89f3a4db8bfa7f725100b529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ddd5b3f0a1ea1d56ed4f498f7d4d689') in 0.024952 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.058110 seconds.
-  path: Assets/Toon City/Models/Tree_3A.fbx
-  artifactKey: Guid(584a66a6bcd7b42f8804cb376f1ee259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City/Models/Tree_3A.fbx using Guid(584a66a6bcd7b42f8804cb376f1ee259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97c1e9cc040e5379e45225243f5c6fb6') in 0.089801 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.015291 seconds.
-  path: Assets/Toon City/Models/Tree_3B.fbx
-  artifactKey: Guid(27b0575c0a40b4b81a3c970907b964cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City/Models/Tree_3B.fbx using Guid(27b0575c0a40b4b81a3c970907b964cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a5e2e45a0bd94341689b0458b4e20b5') in 0.036507 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Toon City/Models/Tree_4A.fbx
-  artifactKey: Guid(44970dc49edfd42168892f98c0bf99b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City/Models/Tree_4A.fbx using Guid(44970dc49edfd42168892f98c0bf99b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '928fe6802d1ea95e5ec6b9ece11bd4d5') in 0.048911 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/Toon City/Prefabs Update/Vegetation/Tree_5C.prefab
-  artifactKey: Guid(590cb64fee1984696b4645fca2a6717d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City/Prefabs Update/Vegetation/Tree_5C.prefab using Guid(590cb64fee1984696b4645fca2a6717d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aba5ca3d8ee150417d96f8cd1b8ef763') in 0.028043 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Toon City/Prefabs Update/Vegetation/Tree_5A.prefab
-  artifactKey: Guid(d77dc5a8565144596a05fc70237b3405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City/Prefabs Update/Vegetation/Tree_5A.prefab using Guid(d77dc5a8565144596a05fc70237b3405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3563aeeb7ff303019da34ee2a5a375c') in 0.031170 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Toon City/Models/Update/Tree_5F.fbx
-  artifactKey: Guid(14312cc0a5af84bf280504deeab78e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City/Models/Update/Tree_5F.fbx using Guid(14312cc0a5af84bf280504deeab78e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f31285fac3e4b9db8f087280b9bd57') in 0.031093 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Toon City/Prefabs Update/Vegetation/Tree_5G.prefab
-  artifactKey: Guid(5360a9a39a3ad467fbb38d6c796f43cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City/Prefabs Update/Vegetation/Tree_5G.prefab using Guid(5360a9a39a3ad467fbb38d6c796f43cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f77aa5bb8da1033ded58fe826b421394') in 0.041583 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000604 seconds.
-  path: Assets/Toon City/Models/Update/Tree_5J.fbx
-  artifactKey: Guid(4a8983ec0683d42a3a29b4616f7d5695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City/Models/Update/Tree_5J.fbx using Guid(4a8983ec0683d42a3a29b4616f7d5695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a8b7c1ba852721886739f891db0b31e') in 0.078628 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Toon City/Models/Water_Tank_1A.fbx
-  artifactKey: Guid(39c1c214652e343bd84af9d0bbd9ab56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City/Models/Water_Tank_1A.fbx using Guid(39c1c214652e343bd84af9d0bbd9ab56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd706249af55fbc1ac5b574f9c7c38edf') in 0.146223 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000337 seconds.
-  path: Assets/Toon City/Models/Wooden_Pallet_1A.fbx
-  artifactKey: Guid(b2d29264394724357b6176c353ddcc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City/Models/Wooden_Pallet_1A.fbx using Guid(b2d29264394724357b6176c353ddcc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c39476500ef0c3e4621c274913d54fd') in 0.082912 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000339 seconds.
-  path: Assets/Toon City/Models/Water_Tank_1B.fbx
-  artifactKey: Guid(43ea7ce8e28a2429c8494b95a7d1985d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City/Models/Water_Tank_1B.fbx using Guid(43ea7ce8e28a2429c8494b95a7d1985d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d101af7bc7a9bfa368fd180e1bacdd0') in 0.045696 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Toon City/Prefabs Update/Vegetation/Tree_5L.prefab
-  artifactKey: Guid(7616c02d33fcdfa4cbf5144a19e0c573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City/Prefabs Update/Vegetation/Tree_5L.prefab using Guid(7616c02d33fcdfa4cbf5144a19e0c573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02d32cf1e27da2c13ae9623cdd10d1e2') in 0.028039 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Toon City/Models/Update/Tree_5A.fbx
-  artifactKey: Guid(8fa3fe533fe40438f873b845c1c9ca68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City/Models/Update/Tree_5A.fbx using Guid(8fa3fe533fe40438f873b845c1c9ca68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4200be56db9c93a6a2ee9fc8eb08a39d') in 0.050181 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Toon City/Prefabs Update/Vegetation/Tree_5K.prefab
-  artifactKey: Guid(19e27bfa43a247044986f4c34ebf8cfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City/Prefabs Update/Vegetation/Tree_5K.prefab using Guid(19e27bfa43a247044986f4c34ebf8cfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bebee3c135cf4f35bdafb11166539ee9') in 0.026182 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Toon City/Prefabs/Industrial/Water_Tank_1B.prefab
-  artifactKey: Guid(7f49ce9f9c86e46b2a0d01dec8f526f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City/Prefabs/Industrial/Water_Tank_1B.prefab using Guid(7f49ce9f9c86e46b2a0d01dec8f526f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c12b3587e3ae370bfaf419c08c54460') in 0.027638 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000306 seconds.
-  path: Assets/Toon City/Models/Update/Tree_5I.fbx
-  artifactKey: Guid(b1515e534065e473582e33091fa13d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City/Models/Update/Tree_5I.fbx using Guid(b1515e534065e473582e33091fa13d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f557386cc2860fe557f51ff255fc7d7e') in 0.039567 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Toon City/Models/Update/Tree_5E.fbx
-  artifactKey: Guid(cae505e1a43104d439d9567d8a0c5db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City/Models/Update/Tree_5E.fbx using Guid(cae505e1a43104d439d9567d8a0c5db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63ecbf8e5c5f0240cf3c2240e69d0153') in 0.034825 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Toon City/Prefabs/Vegetation/Tree_4B.prefab
-  artifactKey: Guid(51bdb9a8469254812885973bba111998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City/Prefabs/Vegetation/Tree_4B.prefab using Guid(51bdb9a8469254812885973bba111998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '479dd6c98408385cadacf01e103eed2b') in 0.026765 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Toon City People/Prefabs/Male Character Variants/TCP_Male_Character_06C.prefab
-  artifactKey: Guid(eef3a40e71330dc498505447455c0673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City People/Prefabs/Male Character Variants/TCP_Male_Character_06C.prefab using Guid(eef3a40e71330dc498505447455c0673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b073a5b1aff4bfa80070af7feb2332f') in 0.589363 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 862
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Toon City People/Prefabs/Male Character Variants/TCP_Male_Character_08B.prefab
-  artifactKey: Guid(f86350e01d68dbc43ac4f4c06f30e020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City People/Prefabs/Male Character Variants/TCP_Male_Character_08B.prefab using Guid(f86350e01d68dbc43ac4f4c06f30e020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ca97e1543dc019e935192eaa617b0f5') in 0.857594 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 894
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Toon City People/Prefabs/Male Character Variants/TCP_Male_Character_09E.prefab
-  artifactKey: Guid(1ef6d2836fa41bf498e96150f2e1c484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City People/Prefabs/Male Character Variants/TCP_Male_Character_09E.prefab using Guid(1ef6d2836fa41bf498e96150f2e1c484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4d6ecca648bf20703f384bda212307b') in 1.181681 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 894
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Toon City People/Prefabs/Male Character Variants/TCP_Male_Character_11B.prefab
-  artifactKey: Guid(88ccf4fab7a355449b0375facf7a086b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City People/Prefabs/Male Character Variants/TCP_Male_Character_11B.prefab using Guid(88ccf4fab7a355449b0375facf7a086b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0c3ce8bb754213fa5c54d97e8825993') in 0.585592 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 874
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Toon City People/Prefabs/Male Character Variants/TCP_Male_Character_08D.prefab
-  artifactKey: Guid(21f8d9db9438ad94bb2d67808f663919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City People/Prefabs/Male Character Variants/TCP_Male_Character_08D.prefab using Guid(21f8d9db9438ad94bb2d67808f663919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4afee841d3b8b4b39786fed36571f4c6') in 0.135721 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 894
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Toon City People/Models/TCP_Male_Character_09.fbx
-  artifactKey: Guid(ff6512ad42b55fc429c8e4db3507df49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City People/Models/TCP_Male_Character_09.fbx using Guid(ff6512ad42b55fc429c8e4db3507df49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2275478b86975d8f07d5130017242b59') in 2.138821 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 893
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Toon City People/Prefabs/Male Character Variants/TCP_Male_Character_03A.prefab
-  artifactKey: Guid(9e4341f1cfa99da4598844ae1142fd3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City People/Prefabs/Male Character Variants/TCP_Male_Character_03A.prefab using Guid(9e4341f1cfa99da4598844ae1142fd3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '389d59b9daaf4457c719b21f894cab34') in 0.449691 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 894
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Toon City People/Models/TCP_Male_Character_04.fbx
-  artifactKey: Guid(7df8d37352ae3384aaa56c55fc6b6775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City People/Models/TCP_Male_Character_04.fbx using Guid(7df8d37352ae3384aaa56c55fc6b6775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dda79bdde018b48b02f2dc669a6c9b0f') in 2.640029 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 893
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Toon City People/Models/Poses/TCP_Male_Poses.fbx
-  artifactKey: Guid(74199e0ce7e1f514ba8e5667cf13a849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City People/Models/Poses/TCP_Male_Poses.fbx using Guid(74199e0ce7e1f514ba8e5667cf13a849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89cd5380ab39674f3ce76f9cf053b5d4') in 0.036718 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 86
-========================================================================
-Received Import Request.
-  Time since last request: 0.000136 seconds.
-  path: Assets/Toon City People/Prefabs/Male Character Variants/TCP_Male_Character_08C.prefab
-  artifactKey: Guid(0cf51b5a0c8758447a0ea8d543a0f741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City People/Prefabs/Male Character Variants/TCP_Male_Character_08C.prefab using Guid(0cf51b5a0c8758447a0ea8d543a0f741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43255887e392993884b10c7893d84c45') in 0.153822 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 894
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Toon City People/Prefabs/Male Character Variants/TCP_Male_Character_09C.prefab
-  artifactKey: Guid(c49cc6208e4f8364981b243e60c50af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City People/Prefabs/Male Character Variants/TCP_Male_Character_09C.prefab using Guid(c49cc6208e4f8364981b243e60c50af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d388496e12c284c8e1d584910261afb') in 0.127726 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 894
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Toon City People/Models/TCP_Male_Character_10.fbx
-  artifactKey: Guid(e021c590d3cf93546957fa84af44cc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City People/Models/TCP_Male_Character_10.fbx using Guid(e021c590d3cf93546957fa84af44cc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73b4085b12cd6fed1ed01acf5b90fdd3') in 2.742333 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 873
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Toon City People/Prefabs/Male Character Variants/TCP_Male_Character_10E.prefab
-  artifactKey: Guid(2e9d9fe78daf97843a04b04a37e04f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City People/Prefabs/Male Character Variants/TCP_Male_Character_10E.prefab using Guid(2e9d9fe78daf97843a04b04a37e04f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df5bc6cc85df40c4f9d19c653af469b1') in 0.230101 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 874
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Toon City People/Prefabs/Male Character Variants/TCP_Male_Character_11C.prefab
-  artifactKey: Guid(41dd83fca0678a344a5b4fc9717ffd79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City People/Prefabs/Male Character Variants/TCP_Male_Character_11C.prefab using Guid(41dd83fca0678a344a5b4fc9717ffd79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0e23a225f01222b19a0e00b4d89e1ae') in 0.174539 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 874
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Toon City People/Prefabs/Male Character Variants/TCP_Male_Character_07B.prefab
-  artifactKey: Guid(b187d42bd7e662244ba9f7f8f0da53db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City People/Prefabs/Male Character Variants/TCP_Male_Character_07B.prefab using Guid(b187d42bd7e662244ba9f7f8f0da53db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6df20bcf626d69943aaf17f91eff284') in 0.190926 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 874
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Toon City People/Prefabs/Male Character Variants/TCP_Male_Character_09D.prefab
-  artifactKey: Guid(2e092c31ac1b7164b9b1e19b8df626b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City People/Prefabs/Male Character Variants/TCP_Male_Character_09D.prefab using Guid(2e092c31ac1b7164b9b1e19b8df626b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f028bbeb53032d22e65bbc558ea40561') in 0.160800 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 894
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Toon City People/Models/TCP_Umbrella_Open_01B.fbx
-  artifactKey: Guid(0037dddac960e8d498f0cfd9533eae2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City People/Models/TCP_Umbrella_Open_01B.fbx using Guid(0037dddac960e8d498f0cfd9533eae2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17bf6a8add31eba5f82881fbd461704d') in 0.073937 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Toon City People/Prefabs/Male Character Variants/TCP_Male_Character_04A.prefab
-  artifactKey: Guid(6d1e803f2b77f1c4bbecfb4c8190b72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City People/Prefabs/Male Character Variants/TCP_Male_Character_04A.prefab using Guid(6d1e803f2b77f1c4bbecfb4c8190b72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66ea931c18e26605f519f8c5361b0092') in 0.173870 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 894
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Toon City People/Prefabs/Male Character Variants/TCP_Male_Character_07C.prefab
-  artifactKey: Guid(9965ab6bc37f6a64bbb641776e109749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon City People/Prefabs/Male Character Variants/TCP_Male_Character_07C.prefab using Guid(9965ab6bc37f6a64bbb641776e109749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c276d58a0f6fc30a3dde05e7d29a752') in 0.143825 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 874
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
