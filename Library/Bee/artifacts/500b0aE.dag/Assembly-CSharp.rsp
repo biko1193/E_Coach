@@ -342,6 +342,7 @@
 "Assets/CharacterController.cs"
 "Assets/Prefabs/Conversation/Scripts/ConversationPanelController.cs"
 "Assets/Scripts/FirstPersonController.cs"
+"Assets/Scripts/MicrophoneManager.cs"
 "Assets/Scripts/NPCInteraction.cs"
 "Assets/Scripts/PlayerMoveController.cs"
 "Assets/Scripts/PlayerMovement.cs"
