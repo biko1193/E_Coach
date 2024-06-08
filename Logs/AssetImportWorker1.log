@@ -1,0 +1,732 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.22f1 (887be4894c44) revision 8944612'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Education' Language: 'ko' Physical Memory: 32600 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/Github Desktop Clones/E_Coach
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+2762
+Successfully changed project path to: D:/Github Desktop Clones/E_Coach
+D:/Github Desktop Clones/E_Coach
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [30420] Host "[IP] 192.168.25.2 [Port] 0 [Flags] 2 [Guid] 2207977148 [EditorId] 2207977148 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-5SV54O7) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [30420] Host "[IP] 192.168.25.2 [Port] 0 [Flags] 2 [Guid] 2207977148 [EditorId] 2207977148 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-5SV54O7) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 1.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.22f1 (887be4894c44)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Github Desktop Clones/E_Coach/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4070 (ID=0x2786)
+    Vendor:   NVIDIA
+    VRAM:     12012 MB
+    Driver:   31.0.15.5244
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56820
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005097 seconds.
+- Loaded All Assemblies, in  0.196 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.156 seconds
+Domain Reload Profiling: 351ms
+	BeginReloadAssembly (62ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (17ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (78ms)
+		LoadAssemblies (61ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (77ms)
+			TypeCache.Refresh (75ms)
+				TypeCache.ScanAssembly (67ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (156ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (123ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (86ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.244 seconds
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.298 seconds
+Domain Reload Profiling: 542ms
+	BeginReloadAssembly (78ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (11ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (120ms)
+		LoadAssemblies (121ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (44ms)
+			TypeCache.Refresh (38ms)
+				TypeCache.ScanAssembly (31ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (299ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (227ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (31ms)
+			ProcessInitializeOnLoadAttributes (175ms)
+			ProcessInitializeOnLoadMethodAttributes (10ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1501 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (55.6 KB). Loaded Objects now: 1983.
+Memory consumption went from 101.0 MB to 101.0 MB.
+Total: 1.481300 ms (FindLiveObjects: 0.069000 ms CreateObjectMapping: 0.016700 ms MarkObjects: 1.309500 ms  DeleteObjects: 0.085600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 139051.199654 seconds.
+  path: Assets/testimage.jpg
+  artifactKey: Guid(45e818824f616a243809442e447cc888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/testimage.jpg using Guid(45e818824f616a243809442e447cc888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dfe37bb0f1a95d827636bfd9bf7832f') in 0.030718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.441523 seconds.
+  path: Assets/Prefabs/RoleTextPrefab.prefab
+  artifactKey: Guid(26f148e0927e22f459520300bb62ed0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/RoleTextPrefab.prefab using Guid(26f148e0927e22f459520300bb62ed0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a0d9c683d5a6da471b0e67be27e9e8b') in 0.007207 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 1.193968 seconds.
+  path: Assets/Prefabs/Conversation/TextBox.prefab
+  artifactKey: Guid(224e4e306f9e1ae46a31b84e5cf80d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Conversation/TextBox.prefab using Guid(224e4e306f9e1ae46a31b84e5cf80d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f44f31d304c5363704c90f8440b0ae4d') in 0.020974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 193.692152 seconds.
+  path: Assets/Toon City/Prefabs/Props/Air_Conditioner_1A.prefab
+  artifactKey: Guid(340a3e9cc77964ba2926f382566a3325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Prefabs/Props/Air_Conditioner_1A.prefab using Guid(340a3e9cc77964ba2926f382566a3325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '195334668728a15665e0cb259a906f0b') in 0.145490 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Toon City/Models/Barrel_1B.fbx
+  artifactKey: Guid(c22ff77bc1ba144e4b52b9be86842327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Models/Barrel_1B.fbx using Guid(c22ff77bc1ba144e4b52b9be86842327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1041294e6e980600d81485f930729870') in 0.072163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Toon City/Models/Barrel_1A.fbx
+  artifactKey: Guid(09aa961c51a0b436ca262716cfaedfb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Models/Barrel_1A.fbx using Guid(09aa961c51a0b436ca262716cfaedfb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83fb9950859a7f98f5d347da1760ec42') in 0.096590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Basic Motion 3D/Basic Motions/Animations/Idles/BasicMotions@Idle02.fbx
+  artifactKey: Guid(cbc500a5daea7c04892be5e81ed7a3c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic Motion 3D/Basic Motions/Animations/Idles/BasicMotions@Idle02.fbx using Guid(cbc500a5daea7c04892be5e81ed7a3c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45244cbd68fbddd1a9c72aad1ab8e423') in 0.002657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 132
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Toon City/Prefabs/Industrial/Barrel_1B.prefab
+  artifactKey: Guid(75ea4ee1b6b8b4ae1a3e83a9442e32e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Prefabs/Industrial/Barrel_1B.prefab using Guid(75ea4ee1b6b8b4ae1a3e83a9442e32e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdf3b5f27b18d9b0ab5a56905cba1bb0') in 0.007309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Toon City/Models/Air_Vent_3A.fbx
+  artifactKey: Guid(bc0436e4dee484c0b9bdd75d23ca4633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Models/Air_Vent_3A.fbx using Guid(bc0436e4dee484c0b9bdd75d23ca4633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2a7fb08d8639a5f444dedb75152ea4e') in 0.012249 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Toon City/Prefabs/Industrial/Barrel_1E.prefab
+  artifactKey: Guid(7088214ca2f254cfc9bad1344edaedfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Prefabs/Industrial/Barrel_1E.prefab using Guid(7088214ca2f254cfc9bad1344edaedfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fded545033b5513f14fc383b0f2bbb4e') in 0.003648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Toon City/Models/Air_Vent_3B.fbx
+  artifactKey: Guid(81375bf844bc0492c866421d3d04d06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Models/Air_Vent_3B.fbx using Guid(81375bf844bc0492c866421d3d04d06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '117da36414cf52a2ac849d2cbf0635d2') in 0.010782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Toon City/Prefabs/Props/Air_Vent_3B.prefab
+  artifactKey: Guid(c65df0252f90645ffa23c80a31762412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Prefabs/Props/Air_Vent_3B.prefab using Guid(c65df0252f90645ffa23c80a31762412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad490acff4dfd30f7d8ed26b33481f6f') in 0.005429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Toon City/Models/Barrel_2A.fbx
+  artifactKey: Guid(9532fa64cbb1b470390fdfb35ecb3f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Models/Barrel_2A.fbx using Guid(9532fa64cbb1b470390fdfb35ecb3f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e349855607dd6721a9a913d9f1ecabc5') in 0.010311 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Toon City/Prefabs/Props/Air_Shaft_1B.prefab
+  artifactKey: Guid(9bb386cd3c0b94c19bcff14e843f8e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Prefabs/Props/Air_Shaft_1B.prefab using Guid(9bb386cd3c0b94c19bcff14e843f8e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23699580e935c36be0d3a1c1fa3b7091') in 0.004996 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Toon City/Prefabs/Industrial/Barrel_1C.prefab
+  artifactKey: Guid(a98ebe2d2d74b4ce9997815943b0ecf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Prefabs/Industrial/Barrel_1C.prefab using Guid(a98ebe2d2d74b4ce9997815943b0ecf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e76fdc07c05acf0fd5eace25cc04df2') in 0.007823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Toon City/Models/Update/Barber_Text_1A.fbx
+  artifactKey: Guid(5ae86dd133653914d8860b285408c626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Models/Update/Barber_Text_1A.fbx using Guid(5ae86dd133653914d8860b285408c626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eb881ec30e45a510817025bf104e75c') in 0.009576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Toon City/Prefabs/Props/Air_Conditioner_3A.prefab
+  artifactKey: Guid(7bdc5e1f1af39483db0c2d90160caee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Prefabs/Props/Air_Conditioner_3A.prefab using Guid(7bdc5e1f1af39483db0c2d90160caee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9214783e554f25069892249ca6cf3f1') in 0.009518 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Toon City/Prefabs/Props/Air_Shaft_1A.prefab
+  artifactKey: Guid(6ae53fb7a7b9e4dfeab6c078ecb4896b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Prefabs/Props/Air_Shaft_1A.prefab using Guid(6ae53fb7a7b9e4dfeab6c078ecb4896b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7c1d8f9345bcab1d905d329bbf387e8') in 0.004294 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 53
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Toon City/Prefabs/Props/Air_Conditioner_2A.prefab
+  artifactKey: Guid(ea548b9f060e44007926db867bc1ca55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Prefabs/Props/Air_Conditioner_2A.prefab using Guid(ea548b9f060e44007926db867bc1ca55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1bb03921dd447ae9b5492624a26c99b') in 0.007631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Basic Motion 3D/Basic Motions/Animations/Movement/BasicMotions@Run01.fbx
+  artifactKey: Guid(f2f9a6f31d218ef40871718667ffa92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic Motion 3D/Basic Motions/Animations/Movement/BasicMotions@Run01.fbx using Guid(f2f9a6f31d218ef40871718667ffa92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5485c925b765d5c6d233a19c229ef353') in 0.004416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 138
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Toon City/Models/Antenna_2A.fbx
+  artifactKey: Guid(143a0a9391e4d4429bfc943c501d86ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Models/Antenna_2A.fbx using Guid(143a0a9391e4d4429bfc943c501d86ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92cba32e58e49836a3e71a76a339592d') in 0.010829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Toon City/Prefabs/Props/Air_Vent_3A.prefab
+  artifactKey: Guid(f6b07756544844c0e8a8be11fde5c43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Prefabs/Props/Air_Vent_3A.prefab using Guid(f6b07756544844c0e8a8be11fde5c43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6bd5deee9dd2296055f1980584e0622') in 0.004020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Toon City/Models/Antenna_1C.fbx
+  artifactKey: Guid(956ea0135a4c34344b2c22111169ded3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Models/Antenna_1C.fbx using Guid(956ea0135a4c34344b2c22111169ded3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7cffe4ecdf180be4453fa9329941288') in 0.005715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Toon City/Prefabs/Industrial/Barrel_2B.prefab
+  artifactKey: Guid(fa65e771a28334393b2a357911594fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Prefabs/Industrial/Barrel_2B.prefab using Guid(fa65e771a28334393b2a357911594fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37e416fb8007d97e9767019cbbc741a2') in 0.005195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Toon City/Models/Barrel_1E.fbx
+  artifactKey: Guid(7fd56d85592744cfaa18f7b9a599597a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Models/Barrel_1E.fbx using Guid(7fd56d85592744cfaa18f7b9a599597a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96ec7d1d9db33481fb4c18a1db7dbea8') in 0.009997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Toon City/Prefabs Update/Advertising/Barber_Cylinder_1A.prefab
+  artifactKey: Guid(0c9f57e76bd08514fa526a4485d59f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Prefabs Update/Advertising/Barber_Cylinder_1A.prefab using Guid(0c9f57e76bd08514fa526a4485d59f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '886d0c49184f8f7e7509cee5d7996b89') in 0.005249 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Toon City/Prefabs/Props/Air_Vent_2A.prefab
+  artifactKey: Guid(3b709d6723fc9454fb28c12105e3ee8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Prefabs/Props/Air_Vent_2A.prefab using Guid(3b709d6723fc9454fb28c12105e3ee8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6f5ed30dba40d797834d9900a32ec4a') in 0.006812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Toon City/Models/Air_Vent_2A.fbx
+  artifactKey: Guid(c750713b71fb44afb963bc4a1b47f167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Models/Air_Vent_2A.fbx using Guid(c750713b71fb44afb963bc4a1b47f167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '633752c630f2087be63a0ea84312fc2a') in 0.012676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Toon City/Models/Antenna_1A.fbx
+  artifactKey: Guid(bb2964cb645a641b081a373f855e482c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Models/Antenna_1A.fbx using Guid(bb2964cb645a641b081a373f855e482c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '152bdf21797a7446d5f15d267c7f1964') in 0.010768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Toon City/Prefabs/Props/Antenna_1A.prefab
+  artifactKey: Guid(95d71da734c954b64b36733aef306fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Prefabs/Props/Antenna_1A.prefab using Guid(95d71da734c954b64b36733aef306fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a327dea567ce1784d3e57b14237e953e') in 0.005255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Basic Motion 3D/Basic Motions/Animations/Movement/BasicMotions@Fall01.fbx
+  artifactKey: Guid(aea48e2ff51aa6b40939f4137190fe1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic Motion 3D/Basic Motions/Animations/Movement/BasicMotions@Fall01.fbx using Guid(aea48e2ff51aa6b40939f4137190fe1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '070afa21084547b361d32bd719b9e1a3') in 0.002377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 131
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Toon City/Prefabs/Props/Antenna_2B.prefab
+  artifactKey: Guid(61d290acf2e624d66b4bf51c1aad839d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Prefabs/Props/Antenna_2B.prefab using Guid(61d290acf2e624d66b4bf51c1aad839d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '601e4838fb2a6442f5162391681aca0a') in 0.008098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 6.236318 seconds.
+  path: Assets/Basic Motion 3D/Basic Motions/Animations/Movement/BasicMotions@Strafe01 [RM].fbx
+  artifactKey: Guid(63e21129073260449a38d823cd846c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic Motion 3D/Basic Motions/Animations/Movement/BasicMotions@Strafe01 [RM].fbx using Guid(63e21129073260449a38d823cd846c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7db4269c3410338c7bf97ae2e94feb77') in 0.002677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 132
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Basic Motion 3D/Basic Motions/Animations/Movement/BasicMotions@Walk01.fbx
+  artifactKey: Guid(90cc8eeb37fb3f841b1892529070a4e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic Motion 3D/Basic Motions/Animations/Movement/BasicMotions@Walk01.fbx using Guid(90cc8eeb37fb3f841b1892529070a4e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '006ecf9b9e7e882d4d21a1693145ebc1') in 0.002799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 138
+========================================================================
+Received Import Request.
+  Time since last request: 0.001706 seconds.
+  path: Assets/Basic Motion 3D/Basic Motions/Prefabs/BasicMotionsDummy.prefab
+  artifactKey: Guid(4a076a09e2096f140b4008b73dea295f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic Motion 3D/Basic Motions/Prefabs/BasicMotionsDummy.prefab using Guid(4a076a09e2096f140b4008b73dea295f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1df828b96997d0014d98a5629ce90b78') in 0.084055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 152
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Toon City/Models/Bench_2C.fbx
+  artifactKey: Guid(d7ceddb9cb96c47c0bd3686331e3e12b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Models/Bench_2C.fbx using Guid(d7ceddb9cb96c47c0bd3686331e3e12b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c61842266ed90e7009c6e57f0fcc75f1') in 0.145005 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Toon City/Prefabs/Advertising/Billboard_1C.prefab
+  artifactKey: Guid(dc705d6debadf43d99f57c6c170550e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Prefabs/Advertising/Billboard_1C.prefab using Guid(dc705d6debadf43d99f57c6c170550e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f96de6add0affb6bd8e4eb33de04ccfd') in 0.004019 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Toon City/Models/Bench_2D.fbx
+  artifactKey: Guid(f42227878907d4efaac33b6eae88746f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Models/Bench_2D.fbx using Guid(f42227878907d4efaac33b6eae88746f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ca23db97fa9829614e8b11ad7387dad') in 0.014145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Toon City/Models/Update/Colliders/Brownstone_1A_MeshCollider.fbx
+  artifactKey: Guid(7e74511dcccf04e60ad77ed450ffc6d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Models/Update/Colliders/Brownstone_1A_MeshCollider.fbx using Guid(7e74511dcccf04e60ad77ed450ffc6d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ed2dd0951c42ad2dfd8371d4e90db13') in 0.011521 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Toon City/Prefabs/Props/Bench_2C.prefab
+  artifactKey: Guid(14990de6dc5b54487a29a5541de4b5df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Prefabs/Props/Bench_2C.prefab using Guid(14990de6dc5b54487a29a5541de4b5df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5056d44ee111575010102cc2af44d9e') in 0.004233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Toon City/Prefabs/Props/Bench_2A.prefab
+  artifactKey: Guid(8c4b143c76d614b5981278b77786c0e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Prefabs/Props/Bench_2A.prefab using Guid(8c4b143c76d614b5981278b77786c0e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba14ee8b0b2f30ffb1f748d1667357de') in 0.008914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.106295 seconds.
+  path: Assets/Toon City/Models/Colliders/Building_3A_MeshCollider.fbx
+  artifactKey: Guid(552af8431098545b587eccf6646bfd6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Models/Colliders/Building_3A_MeshCollider.fbx using Guid(552af8431098545b587eccf6646bfd6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a53924572f1e75ffcbaa717d71709ecf') in 0.009125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Toon City/Models/Colliders/Building_4C_MeshCollider.fbx
+  artifactKey: Guid(116e564b94a1949298400623997c700c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Models/Colliders/Building_4C_MeshCollider.fbx using Guid(116e564b94a1949298400623997c700c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cbee34bfe17eed99549c8f5df3ab638') in 0.008621 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Toon City/Models/Colliders/Building_14B_MeshCollider.fbx
+  artifactKey: Guid(2fcf6bbfb614f45f0a411738ad747b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Models/Colliders/Building_14B_MeshCollider.fbx using Guid(2fcf6bbfb614f45f0a411738ad747b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efef5cd0139262a810aa7f7311ddcddd') in 0.011327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Toon City/Models/Colliders/Building_15A_MeshCollider.fbx
+  artifactKey: Guid(e8d9b499e949b4c7fbba32bf6199627d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Models/Colliders/Building_15A_MeshCollider.fbx using Guid(e8d9b499e949b4c7fbba32bf6199627d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13cb60a0e78bd396aedc8471258f8978') in 0.009257 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Toon City/Models/Colliders/Building_12A_MeshCollider.fbx
+  artifactKey: Guid(2fd27453746f04b8b939054146651d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Models/Colliders/Building_12A_MeshCollider.fbx using Guid(2fd27453746f04b8b939054146651d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fcd33446e61d880cce7d350d7f088b5') in 0.008894 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Toon City/Models/Colliders/Building_6A_MeshCollider.fbx
+  artifactKey: Guid(5a90e5ed962b44bdbada02e1d2aefd63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Models/Colliders/Building_6A_MeshCollider.fbx using Guid(5a90e5ed962b44bdbada02e1d2aefd63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6e2b4e2f386a427a792054b1a647885') in 0.010183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Toon City/Models/Colliders/Building_17A_MeshCollider.fbx
+  artifactKey: Guid(f8acf9fb5f8654383809424dda5b6fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Models/Colliders/Building_17A_MeshCollider.fbx using Guid(f8acf9fb5f8654383809424dda5b6fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2910e9ea804377061b7e68aa41be7aaf') in 0.009364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Toon City/Models/Colliders/Building_16A_MeshCollider.fbx
+  artifactKey: Guid(d8e8e5949ee934034897b00bdc70a601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Models/Colliders/Building_16A_MeshCollider.fbx using Guid(d8e8e5949ee934034897b00bdc70a601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c30422b044f394fdb4d58a60920e5e4') in 0.009785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Toon City/Models/Colliders/Building_10B_MechCollider.fbx
+  artifactKey: Guid(044ec33ad6d0a4a40a809a739998ec80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Models/Colliders/Building_10B_MechCollider.fbx using Guid(044ec33ad6d0a4a40a809a739998ec80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd10d7fbf3ada0fdc1b1b369a04461f94') in 0.008455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Toon City/Models/Colliders/Building_9C_MeshCollider.fbx
+  artifactKey: Guid(07428d244f93840ffb3d74872ddc4c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Models/Colliders/Building_9C_MeshCollider.fbx using Guid(07428d244f93840ffb3d74872ddc4c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b663387b0d6be66ad9f8e15ff5154513') in 0.010232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Toon City/Models/Colliders/Building_7A_MeshCollider.fbx
+  artifactKey: Guid(f185051aeebb84ce6ac6286f9fe0968f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Models/Colliders/Building_7A_MeshCollider.fbx using Guid(f185051aeebb84ce6ac6286f9fe0968f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1595b65fb9d7738389d8929fd09a4e23') in 0.007834 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.326867 seconds.
+  path: Assets/Toon City/Models/Update/Colliders/Concrete_Arch_1A_MeshCollider.fbx
+  artifactKey: Guid(6b7c9edc0af5f441facc52889bfc7514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Models/Update/Colliders/Concrete_Arch_1A_MeshCollider.fbx using Guid(6b7c9edc0af5f441facc52889bfc7514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f00b8c1d71cea792a8b256f32c9186c0') in 0.007251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000843 seconds.
+  path: Assets/Toon City/Models/Concrete_Barrier_2A.fbx
+  artifactKey: Guid(8abea0e287c7d4919b029f011cc15b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Models/Concrete_Barrier_2A.fbx using Guid(8abea0e287c7d4919b029f011cc15b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f05c31b702406f90796210a20915dae') in 0.008557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Toon City/Models/Concrete_Fence_1B.fbx
+  artifactKey: Guid(887361c2b425f4c3588383d43423ad16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Models/Concrete_Fence_1B.fbx using Guid(887361c2b425f4c3588383d43423ad16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38d1d1415f0b2be657c76c6e00267554') in 0.008082 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Toon City/Models/Traffic_Cone_2A.fbx
+  artifactKey: Guid(352a1eb82814a49ccad95eff638bd168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Models/Traffic_Cone_2A.fbx using Guid(352a1eb82814a49ccad95eff638bd168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e946a116a7081649501e5beea1cc36f3') in 0.008386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Toon City/Models/Trash_Container_2A.fbx
+  artifactKey: Guid(5f25ac7c4a34e45b0aec84d5b8a5f5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Models/Trash_Container_2A.fbx using Guid(5f25ac7c4a34e45b0aec84d5b8a5f5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc6d5f2679a16bc23954642c06e0a7be') in 0.018894 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Toon City/Prefabs/Props/Concrete_Pole_1A.prefab
+  artifactKey: Guid(77d16563d7d2840ddbf37ae9a06a2691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Prefabs/Props/Concrete_Pole_1A.prefab using Guid(77d16563d7d2840ddbf37ae9a06a2691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27eb7916e0518f69c06c357e5b45babb') in 0.007228 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Toon City/Prefabs/Props/Trash_Container_1B.prefab
+  artifactKey: Guid(43e0e39280e8a407da949850389f4f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Prefabs/Props/Trash_Container_1B.prefab using Guid(43e0e39280e8a407da949850389f4f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98b81933d51317f5a575d4ad399fd9fb') in 0.008346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Toon City/Prefabs/Roads/Traffic_Cone_1A.prefab
+  artifactKey: Guid(2e154c031e01a40fea92a1b7cdd03d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Prefabs/Roads/Traffic_Cone_1A.prefab using Guid(2e154c031e01a40fea92a1b7cdd03d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c11af3e6b40e11206e6094b51fbb475') in 0.006395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.244 seconds
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.336 seconds
+Domain Reload Profiling: 579ms
+	BeginReloadAssembly (122ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (17ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (83ms)
+		LoadAssemblies (122ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (6ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (336ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (202ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (1ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (24ms)
+			ProcessInitializeOnLoadAttributes (152ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1478 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (28.0 KB). Loaded Objects now: 2001.
+Memory consumption went from 104.8 MB to 104.8 MB.
+Total: 1.672400 ms (FindLiveObjects: 0.073200 ms CreateObjectMapping: 0.018100 ms MarkObjects: 1.550800 ms  DeleteObjects: 0.029700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

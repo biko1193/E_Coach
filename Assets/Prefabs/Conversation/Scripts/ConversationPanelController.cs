@@ -6,6 +6,131 @@ using UnityEngine.UI;
 using static Unity.IO.LowLevel.Unsafe.AsyncReadManagerMetrics;
 using System;
 
+public class  LogTextBox
+{
+    public string Type
+    {
+        get; private set;
+    }
+    private string text;
+    private AudioSource aud = null;
+    private GameObject textBox = null;
+
+    public LogTextBox(GameObject Txtbx, string typ, string txt, AudioSource audsrc = null)
+    {
+        Type = typ;
+        text = txt;
+        textBox = Txtbx;
+        if (audsrc != null) aud = audsrc;
+    }
+
+    public void Destroy()
+    {
+        UnityEngine.Object.Destroy(textBox);
+        if(aud!=null)UnityEngine.Object.Destroy(aud);
+    }
+
+    public void Hide()
+    {
+        if (textBox != null) textBox.SetActive(false);
+    }
+
+    public void Show()
+    {
+        if (textBox != null) textBox.SetActive(true);
+    }
+}
+
+public class RingBuffer<T>
+{
+    public readonly int Size;
+
+    public Action<T> OnOverflow;
+
+    public int Count
+    {
+        get;
+        private set;
+    }
+
+    public int TotalCount
+    {
+        get;
+        private set;
+    }
+
+    private T[] buffer;
+    private int position;
+
+    public RingBuffer(int size)
+    {
+        this.Size = size;
+        this.buffer = new T[size];
+        this.Count = 0;
+        this.position = 0;
+    }
+
+    public void Push(T item)
+    {
+        this.position = (this.position + 1) % this.Size;
+        if (this.buffer[this.position] != null && this.OnOverflow != null)
+        {
+            this.OnOverflow(this.buffer[this.position]);
+        }
+        this.buffer[this.position] = item;
+        this.Count++;
+        if (this.Count > this.Size)
+        {
+            this.Count = this.Size;
+        }
+        this.TotalCount++;
+    }
+
+    public T Peek(int idx = 0)
+    {
+        if (this.Count == 0)
+        {
+            throw new System.InvalidOperationException();
+        }
+        if (idx > this.Count)
+        {
+            throw new System.InvalidOperationException();
+        }
+        int pos = this.position - idx;
+        if (pos < 0) pos += this.Size;
+        return this.buffer[pos];
+    }
+
+    public T Pop()
+    {
+        if (this.Count == 0)
+        {
+            throw new System.InvalidOperationException();
+        }
+        int last = (this.position - (this.Count - 1));
+        if(last < 0) last += (this.Size);
+        T result = this.buffer[last];
+        this.buffer[last] = default(T);
+
+        //this.position = (this.position + this.Size - 1) % this.Size;
+        this.Count--;
+        this.TotalCount--;
+
+        return result;
+    }
+
+    public bool Any()
+    {
+        return this.Count != 0;
+    }
+
+    public T[] All()
+    {
+        return buffer;
+    }
+
+}
+
 public class ConversationPanelController : MonoBehaviour
 {
     // Preload prefabs here
@@ -17,18 +142,32 @@ public class ConversationPanelController : MonoBehaviour
     public TMP_Text TimerText;
     public TMP_InputField InputField;
     public Toggle LogToggle;
+    public Toggle UserToggle;
+    public Toggle ServerToggle;
     private GameObject CurrentTextBox;
     private int timerTime;
+    public static int LogMax = 30;
 
     private bool isRecording = false;
+    private RingBuffer<LogTextBox> logbuf = new RingBuffer<LogTextBox>(LogMax);
+
+
 
     // 대화창에 플레이어의 대화 생성, 문자열 정렬(줄바꿈, 스크롤바 등)은 자동으로 수행되므로 따로 처리할 필요 없음
-    public void CreateText(string s)
+    public void CreateText(string type, string s)
     {
         //if (InputField.text == "") return;
         CurrentTextBox = Instantiate(TextBox, Content.transform);
         CurrentTextBox.GetComponentInChildren<TMP_Text>().text =
-            '['+DateTime.Now.ToString(("HH:mm:ss")) +"] "+s;
+            '['+DateTime.Now.ToString(("HH:mm:ss")) +"] " +'\n'
+            //+type+'\n'
+            +s;
+        LogTextBox log = new LogTextBox(CurrentTextBox, type, s);
+        logbuf.Push(log);
+        if(logbuf.Count == LogMax)
+        {
+            logbuf.Pop().Destroy();
+        }
     }
 
     // Send 버튼을 눌렀을 때
@@ -39,7 +178,10 @@ public class ConversationPanelController : MonoBehaviour
             ChangeRecStatus();
             SetTimer();
         }
+    }
 
+    public void OnPlayButtonClicked()
+    {
         MicrophoneManager.Instance.PlayRecord();
     }
 
@@ -95,7 +237,7 @@ public class ConversationPanelController : MonoBehaviour
             BlackBox.SetActive(false);
             RedKnob.SetActive(true);
             MicrophoneManager.Instance.StopRecording();
-            CreateText("Record " + TimeToString(timerTime));
+            CreateText("user", "Record " + TimeToString(timerTime));
             isRecording = !isRecording;
         }
         else // 녹음 시작시
@@ -125,6 +267,59 @@ public class ConversationPanelController : MonoBehaviour
         else
         {
             Log.SetActive(false);
+        }
+    }
+
+    private void Hide(LogTextBox tb)
+    {
+        tb.Hide();
+    }
+
+    private void Show(LogTextBox tb)
+    {
+        tb.Show();
+    }
+
+    public void OnUserToggleChanged()
+    {
+        Debug.Log("User Toggle: " + UserToggle.isOn.ToString());
+        LogTextBox[] buf = logbuf.All();
+        if (UserToggle.isOn)
+        {
+            for(int i = 0; i < logbuf.Count; i++)
+            {
+                LogTextBox tmp = logbuf.Peek(i);
+                if (tmp.Type == "user") tmp.Show();
+            }
+        }
+        else
+        {
+            for (int i = 0; i < logbuf.Count; i++)
+            {
+                LogTextBox tmp = logbuf.Peek(i);
+                if (tmp.Type == "user") tmp.Hide();
+            }
+        }
+    }
+
+    public void OnServerToggleChanged()
+    {
+        Debug.Log("Server Toggle: " + ServerToggle.isOn.ToString());
+        if (ServerToggle.isOn)
+        {
+            for (int i = 0; i < logbuf.Count; i++)
+            {
+                LogTextBox tmp = logbuf.Peek(i);
+                if (tmp.Type == "server") tmp.Show();
+            }
+        }
+        else
+        {
+            for (int i = 0; i < logbuf.Count; i++)
+            {
+                LogTextBox tmp = logbuf.Peek(i);
+                if (tmp.Type == "server") tmp.Hide();
+            }
         }
     }
 

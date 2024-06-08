@@ -34,6 +34,6 @@ public class PopupController : MonoBehaviour
         playerController.isPopupOpen = true; // 플레이어 이동 제한
         NPC.transform.Find("CamNPC").gameObject.SetActive(true);// NPC시점카메라 활성화
         HidePlayer(true); //플레이어 숨김
-        popupPanel.GetComponent<ConversationPanelController>().CreateText("Test");
+        popupPanel.GetComponent<ConversationPanelController>().CreateText("server", "Test");
     }
 }
