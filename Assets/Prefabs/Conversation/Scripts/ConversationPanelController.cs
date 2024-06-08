@@ -6,7 +6,7 @@ using UnityEngine.UI;
 using static Unity.IO.LowLevel.Unsafe.AsyncReadManagerMetrics;
 using System;
 
-public class  LogTextBox
+public class LogTextBox
 {
     public string Type
     {
@@ -21,7 +21,13 @@ public class  LogTextBox
         Type = typ;
         text = txt;
         textBox = Txtbx;
-        if (audsrc != null) aud = audsrc;
+        aud = textBox.GetComponent<AudioSource>();
+        if (audsrc != null)
+        {
+            aud.clip = audsrc.clip;
+            aud.clip.name = DateTime.Now.ToString(("HH:mm:ss"));
+            textBox.transform.Find("Button").gameObject.SetActive(true);
+        }
     }
 
     public void Destroy()
@@ -154,7 +160,7 @@ public class ConversationPanelController : MonoBehaviour
 
 
     // 대화창에 플레이어의 대화 생성, 문자열 정렬(줄바꿈, 스크롤바 등)은 자동으로 수행되므로 따로 처리할 필요 없음
-    public void CreateText(string type, string s)
+    public void CreateText(string type, string s, AudioSource aud = null)
     {
         //if (InputField.text == "") return;
         CurrentTextBox = Instantiate(TextBox, Content.transform);
@@ -162,7 +168,7 @@ public class ConversationPanelController : MonoBehaviour
             '['+DateTime.Now.ToString(("HH:mm:ss")) +"] " +'\n'
             //+type+'\n'
             +s;
-        LogTextBox log = new LogTextBox(CurrentTextBox, type, s);
+        LogTextBox log = new LogTextBox(CurrentTextBox, type, s, aud);
         logbuf.Push(log);
         if(logbuf.Count == LogMax)
         {
@@ -237,7 +243,11 @@ public class ConversationPanelController : MonoBehaviour
             BlackBox.SetActive(false);
             RedKnob.SetActive(true);
             MicrophoneManager.Instance.StopRecording();
-            CreateText("user", "Record " + TimeToString(timerTime));
+            CreateText(
+                "user", 
+                "User record (" + TimeToString(timerTime)+')',
+                MicrophoneManager.Instance.GetComponent<AudioSource>()
+                );
             isRecording = !isRecording;
         }
         else // 녹음 시작시

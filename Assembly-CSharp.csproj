@@ -121,6 +121,7 @@
     <Compile Include="Assets\Toon City People\Scripts\WatchSelector.cs" />
     <Compile Include="Assets\Scripts\ResetTriggersOnExit.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
+    <Compile Include="Assets\Prefabs\Conversation\Scripts\TextBoxController.cs" />
     <Compile Include="Assets\Toon City People\Scripts\ChokerSelector.cs" />
     <Compile Include="Assets\Toon City People\Scripts\PantSelector.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />

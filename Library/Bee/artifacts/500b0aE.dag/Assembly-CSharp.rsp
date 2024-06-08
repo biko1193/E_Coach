@@ -345,6 +345,7 @@
 "Assets/MiniMap/MiniMapToggle.cs"
 "Assets/MiniMap/NPCIconFollow.cs"
 "Assets/Prefabs/Conversation/Scripts/ConversationPanelController.cs"
+"Assets/Prefabs/Conversation/Scripts/TextBoxController.cs"
 "Assets/Scripts/FirstPersonController.cs"
 "Assets/Scripts/MicrophoneManager.cs"
 "Assets/Scripts/NPCAttributes.cs"
