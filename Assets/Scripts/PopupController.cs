@@ -7,13 +7,24 @@ public class PopupController : MonoBehaviour
     public GameObject Player;
     public GameObject NPC;
 
+    // 상호작용시에 플레이어가 보이지 않도록 설정
+    private void HidePlayer(bool b)
+    {
+        b = !b;
+        foreach (Transform child in Player.transform)
+        {
+            child.gameObject.SetActive(b);
+        }
+    }
+
     // 팝업창을 닫는 메서드
     public void ClosePopup()
     {
+        Player.SetActive(true); // 대화 종료 시 플레이어 활성화
         popupPanel.SetActive(false); // 팝업창을 비활성화
         playerController.isPopupOpen = false; // 플레이어 이동 제한 해제
-        NPC.transform.Find("CamNPC").gameObject.SetActive(false);
-        Player.transform.Find("Camera").gameObject.SetActive(true);
+        NPC.transform.Find("CamNPC").gameObject.SetActive(false);// NPC시점카메라 비활성화
+        HidePlayer(false); //플레이어 숨김 해제
     }
 
     // 팝업창을 열기 위한 메서드
@@ -21,8 +32,8 @@ public class PopupController : MonoBehaviour
     {
         popupPanel.SetActive(true); // 팝업창을 활성화
         playerController.isPopupOpen = true; // 플레이어 이동 제한
-        // 카메라 시점 전환
-        NPC.transform.Find("CamNPC").gameObject.SetActive(true);
-        Player.transform.Find("Camera").gameObject.SetActive(false);
+        NPC.transform.Find("CamNPC").gameObject.SetActive(true);// NPC시점카메라 활성화
+        HidePlayer(true); //플레이어 숨김
+        popupPanel.GetComponent<ConversationPanelController>().CreateText("Test");
     }
 }
