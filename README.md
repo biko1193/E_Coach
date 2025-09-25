@@ -1,4 +1,4 @@
-# 🎓 영어 회화 코칭 플랫폼 (Metaverse × AI)
+# 🎓 영어 회화 코칭 플랫폼
 
 ## 📌 프로젝트 목표
 Unity 기반 가상공간에서 사용자가 NPC와 **실시간 영어 대화**를 나누고,  
@@ -19,13 +19,13 @@ ChatGPT 분석을 통해 **맞춤형 피드백**을 제공하는 영어 회화 �
 - 미니맵, 대화 로그 UI 제공 → 직관적인 사용자 경험  
 
 📷 가상공간 예시  
-![Unity Virtual Space](images/figure2_virtualspace.png)
+![Unity Virtual Space](npc.png)
 
-📷 NPC 배치 및 역할  
-![NPC in Virtual Space](images/figure3_npc.png)
+📷 NPC 스크립트 및 배치  
+![NPC Script](script.png)
 
 📷 미니맵 기능  
-![Minimap](images/figure4_minimap.png)
+![Minimap](minimap.png)
 
 ---
 
@@ -36,13 +36,20 @@ ChatGPT 분석을 통해 **맞춤형 피드백**을 제공하는 영어 회화 �
 - 대화 종료 후 → ChatGPT & 발음평가 API를 활용한 **문법·어휘·발음 분석**  
 
 📷 시스템 아키텍처  
-![System Architecture](images/figure1_architecture.png)
+![System Architecture](arch.png)
 
-📷 대화 예시  
-![Conversation Log](images/figure8_conversation.png)
+📷 프롬프트 엔지니어링 & 라벨링  
+![Prompt Engineering](prompt.png)  
+![Labeling](labeling.png)
+
+📷 발음 평가  
+![Pronunciation Evaluation](pron.png)
+
+📷 대화 로그  
+![Conversation Log](log.png)
 
 📷 피드백 화면  
-![Feedback UI](images/figure10_feedback.png)
+![Feedback UI](feedback.png)
 
 ---
 
@@ -53,7 +60,7 @@ ChatGPT 분석을 통해 **맞춤형 피드백**을 제공하는 영어 회화 �
 - 학습자별 대화 기록 복기 및 피드백 기반 개선 가능  
 
 📷 데이터베이스 구조  
-![Database](images/figure7_database.png)
+![Database](database.png)
 
 ---
 
