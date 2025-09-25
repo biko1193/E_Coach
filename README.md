@@ -1,20 +1,73 @@
-# E_Coach
-<h3>5/14 ConversationPanelController 및 기타 코드 수정</h3>
+# 🎓 영어 회화 코칭 플랫폼 (Metaverse × AI)
 
-public void CreateText(string prefix, string s)
+## 📌 프로젝트 목표
+Unity 기반 가상공간에서 사용자가 NPC와 **실시간 영어 대화**를 나누고,  
+ChatGPT 분석을 통해 **맞춤형 피드백**을 제공하는 영어 회화 학습 플랫폼을 개발.  
 
-prefix: You, NPC 등 입력한 대상
+- 오픈월드 환경에서 몰입형 회화 학습 경험 제공  
+- Whisper(STT) + GPT-4 + TTS 기반 실시간 대화  
+- 대화 로그 저장 및 ChatGPT 피드백 분석  
 
-s: 텍스트
+---
 
-대화창에 대화 생성, 문자열 정렬(줄바꿈, 스크롤바 등)은 자동으로 수행되므로 따로 처리할 필요 없음
+## 🏗️ 주요 개발 내용
 
-public string GetPlayerText()
+### 🗺️ 가상공간 구현
+- Unity3D + ToonCity 에셋을 활용한 오픈월드 제작 (마을, 공원, 상점 등)  
+- NPC에 **이름과 역할 부여** → 프롬프트 엔지니어링 기반 응답 다양화  
+- 대화 감정 태그에 따른 NPC 애니메이션 및 모션 반영  
+- 미니맵, 대화 로그 UI 제공 → 직관적인 사용자 경험  
 
-public void SetPlayerText(string s)
+📷 가상공간 예시  
+![Unity Virtual Space](images/figure2_virtualspace.png)
 
-인풋필드 값 가져오기&집어넣기
+📷 NPC 배치 및 역할  
+![NPC in Virtual Space](images/figure3_npc.png)
 
-NPC와 상호작용 시 플레이어 캐릭터 잠시 숨김처리 추가
+📷 미니맵 기능  
+![Minimap](images/figure4_minimap.png)
 
-<h3>5/10 NPC가 공중에 떠서 이동하는 문제 있습니다</h3>
+---
+
+### 🔊 실시간 커뮤니케이션
+- **STT**: Whisper → 사용자 음성 → 텍스트 변환  
+- **LLM**: ChatGPT-4 → 문맥 기반 응답 생성  
+- **TTS**: Grad-TTS(+감정 분류기) → NPC 음성 합성  
+- 대화 종료 후 → ChatGPT & 발음평가 API를 활용한 **문법·어휘·발음 분석**  
+
+📷 시스템 아키텍처  
+![System Architecture](images/figure1_architecture.png)
+
+📷 대화 예시  
+![Conversation Log](images/figure8_conversation.png)
+
+📷 피드백 화면  
+![Feedback UI](images/figure10_feedback.png)
+
+---
+
+### 💾 데이터베이스
+- **Firebase Firestore** 사용  
+- 대화 로그 구조화 저장 (message, speaker_id, timestamp)  
+- 서버-클라이언트 연결이 끊겨도 데이터 보존  
+- 학습자별 대화 기록 복기 및 피드백 기반 개선 가능  
+
+📷 데이터베이스 구조  
+![Database](images/figure7_database.png)
+
+---
+
+## ⚙️ 기술 스택
+- **Engine**: Unity3D (ToonCity Asset)  
+- **AI 모델**: Whisper(STT), ChatGPT-4(NLP), Grad-TTS(감정 합성 TTS)  
+- **Backend**: Python (소켓 프로그래밍)  
+- **Database**: Firebase Firestore  
+- **NLP 기법**: Prompt Engineering, Persona Pattern  
+
+---
+
+## 🎯 기대 효과
+- 현실감 있는 영어 회화 학습 환경 제공  
+- 맞춤형 피드백으로 자기 주도 학습 강화  
+- 별도의 장비 없이 PC만으로 활용 가능  
+- 기존 학원·온라인 강의 대비 효율적인 비용/학습 효과  
